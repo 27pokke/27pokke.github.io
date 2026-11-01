@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f1eee7">
+    <meta name="description" content="東京を拠点にするソフトウェア開発者、ぽっけ / 27pokke のポートフォリオ。公開プロジェクトと学びの記録を紹介します。">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:title" content="ぽっけ / 27pokke — Software Developer">
+    <meta property="og:description" content="つくって、試して、考える。東京を拠点にするソフトウェア開発者のポートフォリオ。">
+    <meta property="og:url" content="https://27pokke.github.io/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@27pokke">
+    <link rel="canonical" href="https://27pokke.github.io/">
+    <link rel="icon" href="avatar.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>ぽっけ / 27pokke — Software Developer</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">本文へ移動</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="ページの先頭へ">
+        <span class="wordmark__dot" aria-hidden="true"></span>
+        <span>27POKKE</span>
+      </a>
+      <nav aria-label="主要ナビゲーション">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Connect</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero__signal" aria-hidden="true">
+          <span>27</span>
+          <span>35°N</span>
+          <span>139°E</span>
+        </div>
+
+        <div class="hero__body reveal">
+          <p class="eyebrow"><span>Tokyo, Japan</span><span>Software Developer</span></p>
+          <h1 id="hero-title">
+            <span class="hero__hello">こんにちは、</span>
+            <span class="hero__name">ぽっけ<span class="accent">。</span></span>
+          </h1>
+          <p class="hero__lede">
+            つくって、試して、考える。<br>
+            小さな違和感を、動くものに変えていくソフトウェア開発者です。
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#work">制作と学びを見る <span aria-hidden="true">↘</span></a>
+            <a class="button button--text" href="https://github.com/27pokke" target="_blank" rel="noreferrer" aria-label="GitHubで27pokkeのプロフィールを見る（新しいタブ）">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <figure class="hero__portrait reveal">
+          <div class="portrait__frame">
+            <img src="avatar.png" width="128" height="128" alt="ポケットから顔を出す、ぽっけのイラスト">
+          </div>
+          <figcaption><span>@27pokke</span><span>Available on GitHub</span></figcaption>
+        </figure>
+
+        <p class="hero__scroll" aria-hidden="true"><span></span> Scroll to explore</p>
+      </section>
+
+      <section class="section section--about" id="about" aria-labelledby="about-title">
+        <div class="section__label"><span>01</span><span>About</span></div>
+        <div class="about__content reveal">
+          <h2 id="about-title">好奇心を、<br><em>実装可能な形</em>へ。</h2>
+          <div class="about__copy">
+            <p>
+              東京を拠点にするソフトウェア開発者です。技術をただ使うだけでなく、
+              なぜそう動くのかを確かめながら、学びを小さなプロダクトへ変えています。
+            </p>
+            <p>
+              最近は、ドメイン駆動設計とテスト、公開の仕組み、
+              そして書くこと・届けることを支えるプロダクトに関心があります。
+            </p>
+          </div>
+        </div>
+        <ul class="principles" aria-label="開発で大切にしていること">
+          <li><span>01</span><strong>まず動かす</strong><small>Make it tangible.</small></li>
+          <li><span>02</span><strong>仕組みを知る</strong><small>Learn the why.</small></li>
+          <li><span>03</span><strong>言葉に残す</strong><small>Share the path.</small></li>
+        </ul>
+      </section>
+
+      <section class="section section--work" id="work" aria-labelledby="work-title">
+        <div class="section__label"><span>02</span><span>Selected work</span></div>
+        <div class="work__heading reveal">
+          <h2 id="work-title">制作と学びの、<br>現在地<span class="accent">。</span></h2>
+          <p>
+            完成品だけでなく、考えている途中や学んだ軌跡も含めて。
+            公開しているリポジトリから、いまの関心を4つ選びました。
+          </p>
+        </div>
+
+        <div class="project-list">
+          <article class="project reveal">
+            <div class="project__index">01</div>
+            <div class="project__main">
+              <div class="project__meta">
+                <span class="status status--live">自動化</span>
+                <span>GitHub Actions / Shell</span>
+              </div>
+              <h3>Tokyo, every day.</h3>
+              <p>
+                GitHubプロフィールに東京の天気を自動で届ける、小さな更新の仕組み。
+                日々変わる情報と、静的な自己紹介をひとつのREADMEでつないでいます。
+              </p>
+            </div>
+            <a class="project__link" href="https://github.com/27pokke/27pokke" target="_blank" rel="noreferrer" aria-label="27pokkeプロフィール自動化のリポジトリを見る（新しいタブ）">
+              <span>View repository</span><span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__index">02</div>
+            <div class="project__main">
+              <div class="project__meta">
+                <span class="status status--learning">学習中</span>
+                <span>Laravel / PHP / DDD / TDD</span>
+              </div>
+              <h3>Laravel DDD Practice</h3>
+              <p>
+                記事投稿を題材に、CRUDからテスト、enum、モデルの振る舞いへ。
+                DDDとTDDを段階的に学び、設計判断をドキュメントにも残す練習プロジェクトです。
+              </p>
+            </div>
+            <a class="project__link" href="https://github.com/27pokke/laravel-ddd-practice" target="_blank" rel="noreferrer" aria-label="Laravel DDD Practiceのリポジトリを見る（新しいタブ）">
+              <span>View repository</span><span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__index">03</div>
+            <div class="project__main">
+              <div class="project__meta">
+                <span class="status status--concept">構想</span>
+                <span>Publishing / Manga / Novels</span>
+              </div>
+              <h3>kataribe</h3>
+              <p>
+                漫画と小説のための出版プラットフォーム構想。
+                「つくる」だけでなく「届ける」までをどう支えられるか、入口を考えているプロジェクトです。
+              </p>
+            </div>
+            <a class="project__link" href="https://github.com/27pokke/kataribe" target="_blank" rel="noreferrer" aria-label="kataribeのリポジトリを見る（新しいタブ）">
+              <span>View repository</span><span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__index">04</div>
+            <div class="project__main">
+              <div class="project__meta">
+                <span class="status status--fork">Fork</span>
+                <span>Ruby / SwiftLint / CI</span>
+              </div>
+              <h3>Danger SwiftLint</h3>
+              <p>
+                macOS上でSwiftLintを実行するDanger Rubyプラグインの公開フォーク。
+                コードレビューと自動チェックをつなぐ仕組みを追うための参照先です。
+              </p>
+            </div>
+            <a class="project__link" href="https://github.com/27pokke/danger-ruby-swiftlint" target="_blank" rel="noreferrer" aria-label="Danger SwiftLintフォークのリポジトリを見る（新しいタブ）">
+              <span>View repository</span><span aria-hidden="true">↗</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+        <div class="section__label"><span>03</span><span>Connect</span></div>
+        <div class="contact__body reveal">
+          <p class="contact__kicker">Open profile, open conversation.</p>
+          <h2 id="contact-title">続きを、<br>外の世界で<span>。</span></h2>
+          <p class="contact__copy">
+            日々のコードと試行錯誤はGitHubへ。短いことばと気づきはXへ。
+            気になったものがあれば、公開プロフィールから覗いてみてください。
+          </p>
+          <div class="contact__links">
+            <a href="https://github.com/27pokke" target="_blank" rel="noreferrer" aria-label="GitHubで27pokkeのプロフィールを見る（新しいタブ）">
+              <span><small>Code &amp; projects</small>GitHub</span><b aria-hidden="true">↗</b>
+            </a>
+            <a href="https://x.com/27pokke" target="_blank" rel="noreferrer" aria-label="Xで27pokkeのプロフィールを見る（新しいタブ）">
+              <span><small>Notes &amp; updates</small>X / Twitter</span><b aria-hidden="true">↗</b>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 27pokke — Tokyo, Japan</span>
+      <span>Built with curiosity &amp; plain HTML.</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
