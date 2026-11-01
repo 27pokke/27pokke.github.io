@@ -115,7 +115,7 @@ scroll; reduced motion and disabled JavaScript preserve every primary task.
 - [x] T021 Run the complete automated contract suite from `package.json` and resolve failures in `index.html`, `styles.css`, `script.js`, and `tests/site.test.mjs`
 - [x] T022 Run the local HTTP and quickstart validation scenarios from `specs/001-portfolio-site/quickstart.md`
 - [x] T023 Review the final source against `specs/001-portfolio-site/spec.md`, `plan.md`, and `contracts/ui-contract.md`
-- [ ] T024 Commit and push the reviewed root static source from `index.html` to `main`, then verify `https://27pokke.github.io/`
+- [x] T024 Commit and push the reviewed root static source from `index.html` to `main`, then verify `https://27pokke.github.io/`
 
 ---
 
